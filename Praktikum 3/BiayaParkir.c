@@ -7,19 +7,19 @@
 #include <stdlib.h>
 int main(){
     /*Kamus*/
-    int i,p;
+    int i,biayap;
     char inisial;
 
     /*Algoritma*/
     printf("Masukkan lama waktu parkir : ");
     scanf("%d",&i);
     if (i>-1 && i<= 2){
-        p = 2000;
-        printf("%d",p);
+        biayap = 2000;
+        printf("%d",biayap);
     }
     else {
-        p = 2000 + ((i-2)*500);
-        printf("%d",p);
+        biayap = 2000 + ((i-2)*500);
+        printf("%d",biayap);
     }
     return 0;
 }
