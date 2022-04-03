@@ -7,7 +7,7 @@
 #include <stdlib.h>
 int main(){
     /*Kamus*/
-    int k,t;
+    int k,h;
 
     /*Algoritma*/
     printf("Masukkan golongan kerja (1 hingga 4) : ");
