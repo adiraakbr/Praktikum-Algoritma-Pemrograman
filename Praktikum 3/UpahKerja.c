@@ -14,7 +14,7 @@ int main(){
     scanf("%d",&k);
     printf("Waktu kerja dalam seminggu : ");
     scanf("%d", &h);
-    if(t<=40){
+    if(h<=40){
         switch (k){
         case 1 :
             printf("%d", h*1000);
